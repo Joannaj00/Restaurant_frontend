@@ -1,0 +1,7 @@
+.food-image {
+    width: 35px; /* Adjust based on your requirement */
+    height: 35px; /* Adjust to maintain aspect ratio for a circle */
+    border-radius: 50%; /* This makes the image circular */
+    border: 2px solid black; /* Adjust thickness and color as needed */
+    object-fit: cover; /* This ensures the image covers the area, useful for maintaining aspect ratio */
+}

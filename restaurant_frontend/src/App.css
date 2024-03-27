@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 300px; /* Adjust the 300px to fit the width of the favorites section */
+  height: 100vh; /* Using viewport height to make container fill the screen */
+}
+
+.header {
+  grid-column: 1 / -1; /* Header spans the full width */
+  background-color: #003366; /* Adjust the color to match your design */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 300px; /* Adjust the 300px to fit the width of the favorites section */
+}
+
+.chatbot-section {
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background for the chatbot section */
+  /* Add more styles as needed */
+}
+
+.favorites-section {
+  padding: 20px;
+  background-color: #ffffff; /* White background for the favorites section */
+  border-left: 1px solid #ccc; /* Separator line */
+  /* Add more styles as needed */
+}
+
+.login-button {
+  background-color: #f0f0f0; /* Light gray background for the button */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* Add more styles as needed */
+}
